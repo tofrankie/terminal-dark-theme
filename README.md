@@ -9,12 +9,12 @@
 **Install using Git**
 
 ```shell
-$ git clone https://github.com/toFrankie/terminal-dark-theme.git
+$ git clone https://github.com/tofrankie/terminal-dark-theme.git
 ```
 
 **Install manually**
 
-Download [GitHub ZIP](https://github.com/toFrankie/terminal-dark-theme/archive/refs/heads/main.zip) and unzip them.
+Download [GitHub ZIP](https://github.com/tofrankie/terminal-dark-theme/archive/refs/heads/main.zip) and unzip them.
 
 ## ⚙️ Activating
 
