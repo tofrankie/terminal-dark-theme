@@ -1,12 +1,12 @@
 # Terminal Dark Theme
 
-> A dark theme for macOS Terminal.app
+> A dark theme for macOS Terminal.app and iTerm2
 
 ![Screenshot](./images/screenshot.png)
 
 ## 📥 Download
 
-**Install using Git**
+**Install with Git**
 
 ```shell
 $ git clone https://github.com/tofrankie/terminal-dark-theme.git
@@ -14,22 +14,31 @@ $ git clone https://github.com/tofrankie/terminal-dark-theme.git
 
 **Install manually**
 
-Download [GitHub ZIP](https://github.com/tofrankie/terminal-dark-theme/archive/refs/heads/main.zip) and unzip them.
+Download the [ZIP archive](https://github.com/tofrankie/terminal-dark-theme/archive/refs/heads/main.zip) and extract it
 
-## ⚙️ Activating
+## ⚙️ Importing Profiles
 
-1. Choose Terminal > Preferences, then click Profiles.
-2. Click the Action pop-up menu, choose Import.
-3. Select the `Dark-Theme.terminal` file, then click Open.
-4. Click Default. ❤️
+### Terminal.app
 
-## 🎨 Color Palette
+1. Open Terminal → Settings → Profiles
+2. Click the `Action` pop-up menu, then choose `Import`
+3. Select the `Dark-Theme.terminal` file
+4. Select `Dark Theme`, then click `Default`
+
+### iTerm2
+
+1. Open iTerm2 → Settings → Profiles
+2. Click `Other Actions...`, then choose `Import JSON Profiles...`
+3. Select the `Dark-Theme-for-iTerm2.json` file
+4. Select `Dark Theme`, then click `Set as Default`
+
+## 🎨 ANSI Color Palette
 
 | Palette    | Hex       | Alpha | 🧪                                                             |
-| ---------- | --------- | ----- | -------------------------------------------------------------- |
+| :--------- | :-------- | :---- | :------------------------------------------------------------- |
 | Background | `#1C1F24` | `1`   | ![Background Color](https://placehold.co/20/1C1F24/1C1F24.svg) |
 | Text       | `#FEFEFD` | `1`   | ![Background Color](https://placehold.co/20/FEFEFD/FEFEFD.svg) |
-| Blod Text  | `#FEFEFD` | `1`   | ![Background Color](https://placehold.co/20/FEFEFD/FEFEFD.svg) |
+| Bold Text  | `#FEFEFD` | `1`   | ![Background Color](https://placehold.co/20/FEFEFD/FEFEFD.svg) |
 | Selection  | `#4774F6` | `0.5` | ![Selection Color](https://placehold.co/20/4774F6/4774F6.svg)  |
 | Black      | `#1D1E24` | `1`   | ![Black Color](https://placehold.co/20/1D1E24/1D1E24.svg)      |
 | Red        | `#FF6767` | `1`   | ![Red Color](https://placehold.co/20/FF6767/FF6767.svg)        |
@@ -39,3 +48,7 @@ Download [GitHub ZIP](https://github.com/tofrankie/terminal-dark-theme/archive/r
 | Magenta    | `#D85888` | `1`   | ![Magenta Color](https://placehold.co/20/D85888/D85888.svg)    |
 | Cyan       | `#6AE3B9` | `1`   | ![Cyan Color](https://placehold.co/20/6AE3B9/6AE3B9.svg)       |
 | White      | `#FEFEFD` | `1`   | ![White Color](https://placehold.co/20/FEFEFD/FEFEFD.svg)      |
+
+## 📄 License
+
+MIT License © [Frankie](https://github.com/tofrankie)
